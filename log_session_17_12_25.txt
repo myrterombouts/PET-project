@@ -1,0 +1,40 @@
+Linde Marynissen 
+Myrte Rombouts
+
+not very active source, because if too active: dead time problem (we would see no difference)
+
+geometric efficiency measurements 
+Na-22
+half-life (year): 2.6
+activity: 36.2 kBq
+date: 1/06/2010
+
+current activity: 36200*EXP(-LN(2)*delta_t/(2.6*365.25*24*3600)) 
+delta_t: (17/12/2025 - 1/06/2010) * 24 * 3600
+
+efficiency: =counts/(current_Activity*t_measured*179.91/100) * 100(%)
+179.91 = intensity (see table below)
+-----------------------------------------------------------------------------------
+https://www.nndc.bnl.gov/nudat3/dec_searchi.jsp
+Gamma and X-ray radiation:
+
+           Energy(keV)      Intensity(%)	Dose( MeV/Bq-s )
+XR k&#945;2	     0.848	      0.056 % 6 	  4.7E-7 5 
+XR k&#945;1	     0.849	      0.111 % 11 	  9.4E-7 9 
+Annihil.     511.0	    179.91 % 18 	 
+            1274.537 7 	     99.940 % 14 	  1.27377 18 
+
+-------------------------------------------------------------------------------------
+- measurement for different positions for 10 min
+position: 
+(1) most left, middle hole (4,1)(row, column): 4.2cm from LaBr3:Ce, 10.2 cm from CeBr
+(2) middle hole (4,4): 7.2 cm from LaBr3:Ce, 7.2 from CeBr
+(3) most right, middle hole (4,7): 10.2 cm from LaBr3:Ce, 4.2 from CeBr
+(4) top, middle hole (1,4): 7.2 cm from LaBr3:Ce, 7.2 from CeBr BUT 3cm away from middle (to the wall) (Pythagoras: 7.8 cm)
+(5) bottom, middle hole (7,4): 7.2 cm from LaBr3:Ce, 7.2 from CeBr BUT 3cm away from the middle (not to the wall) (Pythagoras: 7.8 cm)
+(6) left, middle hole (4,2): 5.2 cm from LaBr3:Ce, 9.2 from CeBr 
+(7) right, middle hole (4,6): 9.2 cm from LaBr3:Ce, 5.2 from CeBr 
+(8) left, middle hole (4,3): 6.2 cm from LaBr3:Ce, 8.2 from CeBr 
+(9) left, middle hole (4,5): 8.2 cm from LaBr3:Ce, 6.2 from CeBr 
+
+- background measurement for 10 min 
